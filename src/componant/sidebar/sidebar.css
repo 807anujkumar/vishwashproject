@@ -1,0 +1,94 @@
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(255, 139, 159);
+ row-gap:4px;
+width: 300px;
+margin: 5%;
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(52,30,107,1) 80%);
+ height: 500px;
+ border-radius: 10px;
+
+
+}
+.event{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+font-size: larger;
+font-weight: 700;
+color: rgb(255, 139, 159);
+border: 2px solid  rgb(255, 139, 159);
+padding: 4px;
+cursor: pointer;
+width: 82%;
+ margin-left: 10%;
+ margin-top: 2%;
+ border-radius: 6px;
+  
+ 
+ 
+
+
+}
+.request{
+    font-size: medium;
+    font-weight: 500;
+    border: 1px solid rgb(255, 118, 140);
+    border-radius: 4px;
+    width: 60%;
+    text-align: center;
+
+}
+.hidden{
+    display: none;
+
+}
+.hiddens{
+    display: none;
+
+}
+
+ .visible{
+    display: block;
+margin-left: 20%;
+    margin-top: 10px;
+    font-size: small;
+    font-weight: 400;
+    color: white;
+
+}
+.visibles{
+    display: block;
+    margin-left: 15%;
+    margin-top: 10px;
+    font-size: small;
+    font-weight: 400;
+    color: white;
+
+}
+.text{
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    margin-left: 10%;
+
+}
+.texts{
+display:  flex;
+justify-content: space-between;
+align-items: center;
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+
+}
+@media (max-width: 1200px) {
+    .request{
+      width: 700;
+    }
+}

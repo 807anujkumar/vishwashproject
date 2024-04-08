@@ -1,0 +1,116 @@
+.newpage{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(52,30,107,1) 80%); */
+    color: white;
+    margin:0 50px 0 0px;
+   
+}
+.sidebarrr{
+    margin-left: 40px;
+}
+.afterclicking{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(52,30,107,1) 80%);
+    color: white;
+
+    
+}
+.firstpara{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+}
+.firstparabtm{
+    display: flex;
+    
+    width: 60%;
+}
+.firstparabtm div{
+
+    border: 2px solid rgb(255, 107, 132);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.firstparabtm> :nth-child(2) {
+    background-color: rgb(231, 0, 119); /* Apply background color to the second child */
+  }
+  .secondpara{
+
+    display: flex;
+    justify-content: space-between;
+  }
+  .seconparafirst{
+    width: 40%;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    color: white;
+  }
+  .secondparasecond{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+margin-right: 20px;
+color: white;
+  }
+  .sde{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 81, 110);
+    border: 2px solid rgb(255, 108, 132);
+    border-radius: 5px;
+
+
+  }
+  .venu{
+    color: rgb(255, 81, 110);
+    border: 2px solid rgb(255, 108, 132);
+    border-radius: 5px;
+
+  }
+ .thirdpara{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    column-gap: 50px;
+
+ }
+ .firstpar> :nth-child(1){
+    font-size: large;
+    font-weight: 700;
+    border: none;
+
+}
+.firstpar div{
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+.firstpar> :nth-child(2){
+    background-color: pink;
+    border-radius: 5px;
+}
+.thirdsecond{
+    display: flex;
+    flex-direction: column;
+
+}
+.thirdsecond table{
+    border: 1px solid pink;
+    margin-top: 20px;
+}
+.thirdsecond div{
+    font-size: larger;
+    font-weight: 600;
+}
+.savebtm{
+    width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+    background-color: rgb(255, 100, 126);
+}

@@ -1,0 +1,13 @@
+.selectore.active{
+
+    color: rgb(255, 148, 166);
+}
+.selectore{
+
+    color: white;
+}
+.tableselect{
+    display: flex;
+    column-gap: 20px;
+}
+ 
